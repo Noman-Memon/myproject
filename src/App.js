@@ -1,12 +1,20 @@
 import './App.css'
-import Hello from './components/Hello'
-import Message from './components/Message'
+import Profile from './components/Profile'
+// import Hello from './components/Hello'
+// import Message from './components/Message'
 
 function App() {
   return (
     <div className="App">
-      <Hello />
-      <Message />
+      {/* <Hello /> */}
+      {/* <Message /> */}
+      <Profile name="Danish" lastName="Malik" />
+      {/* saame components with different attributes */}
+      <Profile name="Faheem" lastName="Malik">
+        {/* we can pass an attributes as well as children  */}
+        <h3>This is Person Profile</h3>
+      </Profile>
+      <Profile name="Naseem" lastName="Malik" />
     </div>
   )
 }
