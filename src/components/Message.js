@@ -1,7 +1,7 @@
 import { Component } from 'react'
 class Message extends Component {
   render() {
-    return <h2>This is Class base component</h2>
+    return <h2>Message:{this.props.messageContent}</h2>
   }
 }
 export default Message
