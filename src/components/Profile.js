@@ -1,9 +1,10 @@
 function Profile(props) {
+  const { name, lastName } = props
   console.log(props)
   return (
     <div>
       <h1>
-        Name:{props.name} {props.lastName}
+        Name:{name} {lastName}
       </h1>
       <p>{props.children}</p>
     </div>
