@@ -7,7 +7,8 @@ import './App.css'
 // import Hello from './components/Hello'
 // import Message from './components/Message'
 // import Resume from './components/Resume'
-import Conditionalcomponent from './components/Conditionalcomponent'
+// import ConditionalComponent from './components/ConditionalComponent'
+import Product from './components/Product'
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       <FunctionEvent />
       <ClassEvent /> */}
       {/* <FunctionalCounter /> */}
-      <Conditionalcomponent />
+      {/* <ConditionalComponent /> */}
+      <Product />
     </div>
   )
 }
