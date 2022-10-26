@@ -1,12 +1,13 @@
 import './App.css'
-import FunctionEvent from './components/FunctionEvent'
-import FunctionalCounter from './components/FunctionalCounter'
-import ClassEvent from './components/ClassEvent'
-import Counter from './components/Counter'
+// import FunctionEvent from './components/FunctionEvent'
+// import FunctionalCounter from './components/FunctionalCounter'
+// import ClassEvent from './components/ClassEvent'
+// import Counter from './components/Counter'
 // import Profile from './components/Profile'
 // import Hello from './components/Hello'
 // import Message from './components/Message'
-import Resume from './components/Resume'
+// import Resume from './components/Resume'
+import Conditionalcomponent from './components/Conditionalcomponent'
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       <Resume name="Sunny" />
       <FunctionEvent />
       <ClassEvent /> */}
-      <FunctionalCounter />
+      {/* <FunctionalCounter /> */}
+      <Conditionalcomponent />
     </div>
   )
 }
