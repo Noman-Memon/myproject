@@ -1,6 +1,8 @@
 import './App.css'
 import FunctionEvent from './components/FunctionEvent'
-// import Counter from './components/Counter'
+import FunctionalCounter from './components/FunctionalCounter'
+import ClassEvent from './components/ClassEvent'
+import Counter from './components/Counter'
 // import Profile from './components/Profile'
 // import Hello from './components/Hello'
 // import Message from './components/Message'
@@ -18,9 +20,11 @@ function App() {
       {/* <h3>This is Person Profile</h3> */}
       {/* </Profile> */}
       {/* <Profile name="Naseem" lastName="Malik" /> */}
-      {/* <Counter></Counter> */}
+      {/* <Counter></Counter>
       <Resume name="Sunny" />
       <FunctionEvent />
+      <ClassEvent /> */}
+      <FunctionalCounter />
     </div>
   )
 }

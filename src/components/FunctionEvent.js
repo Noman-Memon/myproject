@@ -6,7 +6,14 @@ export default function FunctionEvent() {
   }
   return (
     <div>
-      <button onClick={handleClick}>Click Here</button>
+      Functional base event handling
+      <button
+        onClick={() => {
+          handleClick()
+        }}
+      >
+        Click Here
+      </button>
     </div>
   )
 }

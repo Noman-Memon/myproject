@@ -7,6 +7,7 @@ export default class Counter extends Component {
       counter: 0,
     }
   }
+  // best way is to used Arrow function like this
   increment() {
     this.setState({
       counter: this.state.counter + 1,
@@ -18,6 +19,7 @@ export default class Counter extends Component {
         <h3>Count Value is: {this.state.counter}</h3>
         <button
           onClick={() => {
+            // best way of binding event handler is to use Arrow function
             this.increment()
           }}
         >
