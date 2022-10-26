@@ -1,6 +1,7 @@
 import './App.css'
+import FunctionEvent from './components/FunctionEvent'
 // import Counter from './components/Counter'
-import Profile from './components/Profile'
+// import Profile from './components/Profile'
 // import Hello from './components/Hello'
 // import Message from './components/Message'
 import Resume from './components/Resume'
@@ -19,6 +20,7 @@ function App() {
       {/* <Profile name="Naseem" lastName="Malik" /> */}
       {/* <Counter></Counter> */}
       <Resume name="Sunny" />
+      <FunctionEvent />
     </div>
   )
 }
