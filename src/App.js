@@ -1,4 +1,5 @@
 import './App.css'
+import Form from './components/Form'
 // import FunctionEvent from './components/FunctionEvent'
 // import FunctionalCounter from './components/FunctionalCounter'
 // import ClassEvent from './components/ClassEvent'
@@ -8,7 +9,7 @@ import './App.css'
 // import Message from './components/Message'
 // import Resume from './components/Resume'
 // import ConditionalComponent from './components/ConditionalComponent'
-import Product from './components/Product'
+// import Product from './components/Product'
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       <ClassEvent /> */}
       {/* <FunctionalCounter /> */}
       {/* <ConditionalComponent /> */}
-      <Product />
+      {/* <Product /> */}
+      <Form/>
     </div>
   )
 }
